@@ -1,5 +1,7 @@
 # Dye
 
+![Cover](cover.jpg)
+
 ## Introduction
 
 Dye is a powerful, real-time styling framework for Apple platforms. Dye handles all the logic of styling UI elements internally, without limiting itself to just the default UI elements or forcing the developer to conform to a specific workflow. New styling options can very easily be added to the framework without any changes being required in the application's code. Dye can be used to style an entire application or just a small part of it, making it easy to add to an existing application and migrating gradually.
