@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+abstract_target 'iOS' do
+  target 'Dye-iOS'
+  platform :ios, "10.0"
+
+  pod 'Dye', :path => '../../'
+end

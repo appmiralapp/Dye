@@ -1,0 +1,320 @@
+[
+    {
+        "name": "color_example_1",
+        "background-color": {
+            "hex": "004777",
+            "alpha": 1
+        },
+        "primary-color": {
+            "rgb": {
+                "r": 163,
+                "g": 0,
+                "b": 0
+            },
+            "alpha": 1
+        },
+        "secondary-color": {
+            "cmyk": {
+                "c": 0.9,
+                "m": 0.39,
+                "y": 0,
+                "k": 0
+            },
+            "alpha": 1
+        }
+    },
+    {
+        "name": "color_example_2",
+        "background-color": "cornflower_blue",
+        "primary-color": "black",
+        "secondary-color": "yellow",
+        "tint-color": "red"
+    },
+    {
+        "name": "background_shadow_example",
+        "background-color": "orange",
+        "corner-radius": 6,
+        "background-shadow-color": "shadow",
+        "background-shadow-radius": 20,
+        "background-shadow-offset": {
+            "x": 0,
+            "y": 4
+        }
+    },
+    {
+        "name": "background_border_example",
+        "background-color": "white",
+        "corner-radius": 6,
+        "border-width": 2,
+        "border-color": "black"
+    },
+    {
+        "name": "gradient_example_1",
+        "background-gradient": {
+            "colors": [
+                {
+                    "hex": "58A7F8",
+                    "alpha": 1
+                },
+                {
+                    "hex": "143B8A",
+                    "alpha": 1
+                },
+                {
+                    "hex": "E65BFF",
+                    "alpha": 1
+                }
+            ],
+            "from": {
+                "x": 0,
+                "y": 1
+            },
+            "to": {
+                "x": 1,
+                "y": 0
+            },
+            "locations": [
+                0,
+                0.4,
+                1
+            ]
+        }
+    },
+    {
+        "name": "gradient_example_2",
+        "background-gradient": {
+            "colors": [
+                "cornflower_blue",
+                "sunflower_yellow"
+            ],
+            "from": {
+                "x": 0.5,
+                "y": 0
+            },
+            "to": {
+                "x": 0.5,
+                "y": 1
+            }
+        }
+    },
+    {
+        "name": "text_example",
+        "primary-color": "black",
+        "font-name": "Helvetica",
+        "font-size": 18
+    },
+    {
+        "name": "text_shadow_example",
+        "primary-color": "white",
+        "font-name": "Helvetica-Bold",
+        "font-size": 16,
+        "text-shadow-radius": 2.5,
+        "text-shadow-color": {
+            "rgb": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+            },
+            "alpha": 0.4
+        },
+        "text-shadow-offset": {
+            "x": 0,
+            "y": -1
+        }
+    },
+    {
+        "name": "text_stroke_example",
+        "primary-color": "white",
+        "font-name": "Helvetica-Bold",
+        "font-size": 16,
+        "text-stroke-color": "red",
+        "text-stroke-width": 2
+    },
+    {
+        "name": "dynamic_type_simple_example",
+        "primary-color": "black",
+        "font-name": "Helvetica",
+        "font-size": 12,
+        "dynamic-type": {
+            "enabled": true,
+            "accessibility-enabled": false
+        }
+    },
+    {
+        "name": "dynamic_type_custom_example",
+        "primary-color": "black",
+        "font-name": "Helvetica",
+        "font-size": 12,
+        "dynamic-type": {
+            "enabled": true,
+            "accessibility-enabled": true,
+            "font-size-xs": 7,
+            "font-size-s": 9,
+            "font-size-m": 11,
+            "font-size-l": 12,
+            "font-size-xl": 14,
+            "font-size-xxl": 16,
+            "font-size-xxxl": 18,
+            "font-size-am": 24,
+            "font-size-al": 28,
+            "font-size-axl": 32,
+            "font-size-axxl": 38,
+            "font-size-axxxl": 48
+        }
+    },
+    {
+        "name": "text_properties_example",
+        "font-name": "Helvetica-Italic",
+        "font-size": 12,
+        "text-line-height": 1.5,
+        "text-character-spacing": 5,
+        "text-underline": true,
+        "text-uppercase": true
+    },
+    {
+        "name": "transform_example",
+        "background-color": "green",
+        "transform": {
+            "scale": {
+                "x": 1.2,
+                "y": 1.2
+            },
+            "translation": {
+                "x": 0,
+                "y": -20
+            },
+            "rotation": 90
+        }
+    },
+    {
+        "name": "inheritance_parent_example",
+        "primary-color": "black",
+        "font-name": "Helvetica-Italic",
+        "font-size": 12
+    },
+    {
+        "name": "inheritance_child_example",
+        "inherits": "inheritance_parent_example",
+        "font-size": 14
+    },
+    {
+        "name": "empty_style"
+    },
+    {
+        "name": "all_properties",
+        "inherits": "empty_style",
+        "corner-radius": 4,
+        "background-color": {
+            "hex": "F6AE2D",
+            "alpha": 1
+        },
+        "background-gradient": {
+            "colors": [
+                {
+                    "rgb": {
+                        "r": 255,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "alpha": 1
+                },
+                {
+                    "rgb": {
+                        "r": 0,
+                        "g": 255,
+                        "b": 0
+                    },
+                    "alpha": 1
+                },
+                {
+                    "rgb": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 255
+                    },
+                    "alpha": 1
+                }
+            ],
+            "from": {
+                "x": 0.5,
+                "y": 0
+            },
+            "to": {
+                "x": 0.5,
+                "y": 1
+            },
+            "locations": [
+                0,
+                0.25,
+                0.75,
+                1
+            ]
+        },
+        "border-width": 2,
+        "border-color": "red",
+        "background-shadow-radius": 4,
+        "background-shadow-offset": {
+            "x": 1,
+            "y": 2
+        },
+        "background-shadow-color": "cornflower_blue_50%",
+        "transform": {
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "translation": {
+                "x": 0,
+                "y": 0
+            },
+            "rotation": 90
+        },
+        "primary-color": "white",
+        "secondary-color": "black",
+        "tint-color": "green",
+        "font-name": "Menlo-Regular",
+        "font-size": 14,
+        "dynamic-type": {
+            "enabled": true,
+            "accessibility-enabled": true,
+            "font-size-xs": 7,
+            "font-size-s": 9,
+            "font-size-m": 11,
+            "font-size-l": 12,
+            "font-size-xl": 14,
+            "font-size-xxl": 16,
+            "font-size-xxxl": 18,
+            "font-size-am": 24,
+            "font-size-al": 28,
+            "font-size-axl": 32,
+            "font-size-axxl": 38,
+            "font-size-axxxl": 48
+        },
+        "text-stroke-width": 2,
+        "text-stroke-color": {
+            "rgb": {
+                "r": 255,
+                "g": 255,
+                "b": 0
+            },
+            "alpha": 1
+        },
+        "text-shadow-radius": 2.5,
+        "text-shadow-offset": {
+            "x": 0,
+            "y": -1
+        },
+        "text-shadow-color": {
+            "rgb": {
+                "r": 255,
+                "g": 128,
+                "b": 0
+            },
+            "alpha": 1
+        },
+        "text-underline": false,
+        "text-line-height": 1.2,
+        "text-character-spacing": 4,
+        "text-uppercase": true
+    }
+]

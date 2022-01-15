@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63239F372513626900081644 /* UIImageView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63239F352513626900081644 /* UIImageView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63239F382513626900081644 /* UIImageView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63239F352513626900081644 /* UIImageView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63239F392513626900081644 /* UIImageView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63239F362513626900081644 /* UIImageView+DYEStyleable.m */; };
+		63239F3A2513626900081644 /* UIImageView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63239F362513626900081644 /* UIImageView+DYEStyleable.m */; };
+		63463BAD20474B5900891288 /* DYEColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7420474B5900891288 /* DYEColors.m */; };
+		63463BAE20474B5900891288 /* DYEColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7420474B5900891288 /* DYEColors.m */; };
+		63463BAF20474B5900891288 /* DYEColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7420474B5900891288 /* DYEColors.m */; };
+		63463BB020474B5900891288 /* DYEStyle+FileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7620474B5900891288 /* DYEStyle+FileImport.m */; };
+		63463BB120474B5900891288 /* DYEStyle+FileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7620474B5900891288 /* DYEStyle+FileImport.m */; };
+		63463BB220474B5900891288 /* DYEStyle+FileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7620474B5900891288 /* DYEStyle+FileImport.m */; };
+		63463BB320474B5900891288 /* DYEColors+FileImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7720474B5900891288 /* DYEColors+FileImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BB420474B5900891288 /* DYEColors+FileImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7720474B5900891288 /* DYEColors+FileImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BB520474B5900891288 /* DYEColors+FileImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7720474B5900891288 /* DYEColors+FileImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BB620474B5900891288 /* DYEStyle+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7920474B5900891288 /* DYEStyle+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BB720474B5900891288 /* DYEStyle+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7920474B5900891288 /* DYEStyle+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BB820474B5900891288 /* DYEStyle+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7920474B5900891288 /* DYEStyle+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BB920474B5900891288 /* DYEColors+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7A20474B5900891288 /* DYEColors+JSON.m */; };
+		63463BBA20474B5900891288 /* DYEColors+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7A20474B5900891288 /* DYEColors+JSON.m */; };
+		63463BBB20474B5900891288 /* DYEColors+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7A20474B5900891288 /* DYEColors+JSON.m */; };
+		63463BBC20474B5900891288 /* DYEStyle+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7B20474B5900891288 /* DYEStyle+JSON.m */; };
+		63463BBD20474B5900891288 /* DYEStyle+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7B20474B5900891288 /* DYEStyle+JSON.m */; };
+		63463BBE20474B5900891288 /* DYEStyle+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7B20474B5900891288 /* DYEStyle+JSON.m */; };
+		63463BBF20474B5900891288 /* DYEColors+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7C20474B5900891288 /* DYEColors+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BC020474B5900891288 /* DYEColors+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7C20474B5900891288 /* DYEColors+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BC120474B5900891288 /* DYEColors+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7C20474B5900891288 /* DYEColors+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BC220474B5900891288 /* DYEStyle+FileImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7D20474B5900891288 /* DYEStyle+FileImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BC320474B5900891288 /* DYEStyle+FileImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7D20474B5900891288 /* DYEStyle+FileImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BC420474B5900891288 /* DYEStyle+FileImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B7D20474B5900891288 /* DYEStyle+FileImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BC520474B5900891288 /* DYEColors+FileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7E20474B5900891288 /* DYEColors+FileImport.m */; };
+		63463BC620474B5900891288 /* DYEColors+FileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7E20474B5900891288 /* DYEColors+FileImport.m */; };
+		63463BC720474B5900891288 /* DYEColors+FileImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7E20474B5900891288 /* DYEColors+FileImport.m */; };
+		63463BC820474B5900891288 /* DYEStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7F20474B5900891288 /* DYEStyle.m */; };
+		63463BC920474B5900891288 /* DYEStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7F20474B5900891288 /* DYEStyle.m */; };
+		63463BCA20474B5900891288 /* DYEStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B7F20474B5900891288 /* DYEStyle.m */; };
+		63463BCB20474B5900891288 /* DYELinearGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8120474B5900891288 /* DYELinearGradientLayer.h */; };
+		63463BCC20474B5900891288 /* DYELinearGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8120474B5900891288 /* DYELinearGradientLayer.h */; };
+		63463BCD20474B5900891288 /* DYELinearGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8120474B5900891288 /* DYELinearGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BCE20474B5900891288 /* DYELinearGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8220474B5900891288 /* DYELinearGradientLayer.m */; };
+		63463BCF20474B5900891288 /* DYELinearGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8220474B5900891288 /* DYELinearGradientLayer.m */; };
+		63463BD020474B5900891288 /* DYELinearGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8220474B5900891288 /* DYELinearGradientLayer.m */; };
+		63463BD120474B5900891288 /* DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8320474B5900891288 /* DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BD220474B5900891288 /* DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8320474B5900891288 /* DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BD320474B5900891288 /* DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8320474B5900891288 /* DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BD420474B5900891288 /* UISwitch+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8620474B5900891288 /* UISwitch+DYEStyleable.m */; };
+		63463BD720474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8720474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m */; };
+		63463BD820474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8720474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m */; };
+		63463BDA20474B5900891288 /* UIButton+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8820474B5900891288 /* UIButton+DYEStyleable.m */; };
+		63463BDB20474B5900891288 /* UIButton+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8820474B5900891288 /* UIButton+DYEStyleable.m */; };
+		63463BDD20474B5900891288 /* UIView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8920474B5900891288 /* UIView+DYEStyleable.m */; };
+		63463BDE20474B5900891288 /* UIView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8920474B5900891288 /* UIView+DYEStyleable.m */; };
+		63463BE020474B5900891288 /* UISlider+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8A20474B5900891288 /* UISlider+DYEStyleable.m */; };
+		63463BE320474B5900891288 /* UIPageControl+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8B20474B5900891288 /* UIPageControl+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BE420474B5900891288 /* UIPageControl+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8B20474B5900891288 /* UIPageControl+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BE620474B5900891288 /* UIProgressView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8C20474B5900891288 /* UIProgressView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BE720474B5900891288 /* UIProgressView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8C20474B5900891288 /* UIProgressView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BE920474B5900891288 /* UIControl+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8D20474B5900891288 /* UIControl+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BEA20474B5900891288 /* UIControl+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B8D20474B5900891288 /* UIControl+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BEC20474B5900891288 /* UITextField+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8E20474B5900891288 /* UITextField+DYEStyleable.m */; };
+		63463BED20474B5900891288 /* UITextField+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8E20474B5900891288 /* UITextField+DYEStyleable.m */; };
+		63463BEF20474B5900891288 /* UILabel+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8F20474B5900891288 /* UILabel+DYEStyleable.m */; };
+		63463BF020474B5900891288 /* UILabel+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B8F20474B5900891288 /* UILabel+DYEStyleable.m */; };
+		63463BF220474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9020474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BF320474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9020474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BF520474B5900891288 /* UISwitch+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9120474B5900891288 /* UISwitch+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BF820474B5900891288 /* UIButton+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9220474B5900891288 /* UIButton+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BF920474B5900891288 /* UIButton+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9220474B5900891288 /* UIButton+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463BFB20474B5900891288 /* UIProgressView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9320474B5900891288 /* UIProgressView+DYEStyleable.m */; };
+		63463BFC20474B5900891288 /* UIProgressView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9320474B5900891288 /* UIProgressView+DYEStyleable.m */; };
+		63463BFE20474B5900891288 /* UISlider+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9420474B5900891288 /* UISlider+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0120474B5900891288 /* UIPageControl+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9520474B5900891288 /* UIPageControl+DYEStyleable.m */; };
+		63463C0220474B5900891288 /* UIPageControl+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9520474B5900891288 /* UIPageControl+DYEStyleable.m */; };
+		63463C0420474B5900891288 /* UIView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9620474B5900891288 /* UIView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0520474B5900891288 /* UIView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9620474B5900891288 /* UIView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0720474B5900891288 /* UILabel+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9720474B5900891288 /* UILabel+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0820474B5900891288 /* UILabel+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9720474B5900891288 /* UILabel+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0A20474B5900891288 /* UITextField+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9820474B5900891288 /* UITextField+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0B20474B5900891288 /* UITextField+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9820474B5900891288 /* UITextField+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C0D20474B5900891288 /* UIControl+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9920474B5900891288 /* UIControl+DYEStyleable.m */; };
+		63463C0E20474B5900891288 /* UIControl+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9920474B5900891288 /* UIControl+DYEStyleable.m */; };
+		63463C1020474B5900891288 /* NSMutableAttributedString+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9B20474B5900891288 /* NSMutableAttributedString+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1120474B5900891288 /* NSMutableAttributedString+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9B20474B5900891288 /* NSMutableAttributedString+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1220474B5900891288 /* NSMutableAttributedString+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9B20474B5900891288 /* NSMutableAttributedString+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1320474B5900891288 /* NSMutableAttributedString+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9C20474B5900891288 /* NSMutableAttributedString+DYEStyleable.m */; };
+		63463C1420474B5900891288 /* NSMutableAttributedString+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9C20474B5900891288 /* NSMutableAttributedString+DYEStyleable.m */; };
+		63463C1520474B5900891288 /* NSMutableAttributedString+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9C20474B5900891288 /* NSMutableAttributedString+DYEStyleable.m */; };
+		63463C1820474B5900891288 /* NSView+DYEStyleable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463B9E20474B5900891288 /* NSView+DYEStyleable.m */; };
+		63463C1B20474B5900891288 /* NSView+DYEStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463B9F20474B5900891288 /* NSView+DYEStyleable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1C20474B5900891288 /* Dye.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA020474B5900891288 /* Dye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1D20474B5900891288 /* Dye.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA020474B5900891288 /* Dye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1E20474B5900891288 /* Dye.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA020474B5900891288 /* Dye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C1F20474B5900891288 /* DYEColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA120474B5900891288 /* DYEColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C2020474B5900891288 /* DYEColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA120474B5900891288 /* DYEColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C2120474B5900891288 /* DYEColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA120474B5900891288 /* DYEColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C2420474B5900891288 /* NSView+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA320474B5900891288 /* NSView+DYEPrivateHeader.h */; };
+		63463C2520474B5900891288 /* DYEStyle+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA420474B5900891288 /* DYEStyle+DYEPrivateHeader.h */; };
+		63463C2620474B5900891288 /* DYEStyle+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA420474B5900891288 /* DYEStyle+DYEPrivateHeader.h */; };
+		63463C2720474B5900891288 /* DYEStyle+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA420474B5900891288 /* DYEStyle+DYEPrivateHeader.h */; };
+		63463C2820474B5900891288 /* UIControl+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA520474B5900891288 /* UIControl+DYEPrivateHeader.h */; };
+		63463C2920474B5900891288 /* UIControl+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA520474B5900891288 /* UIControl+DYEPrivateHeader.h */; };
+		63463C2B20474B5900891288 /* DYEColors+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA620474B5900891288 /* DYEColors+DYEPrivateHeader.h */; };
+		63463C2C20474B5900891288 /* DYEColors+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA620474B5900891288 /* DYEColors+DYEPrivateHeader.h */; };
+		63463C2D20474B5900891288 /* DYEColors+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA620474B5900891288 /* DYEColors+DYEPrivateHeader.h */; };
+		63463C2E20474B5900891288 /* UIView+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA720474B5900891288 /* UIView+DYEPrivateHeader.h */; };
+		63463C2F20474B5900891288 /* UIView+DYEPrivateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA720474B5900891288 /* UIView+DYEPrivateHeader.h */; };
+		63463C3120474B5900891288 /* DYEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA820474B5900891288 /* DYEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C3220474B5900891288 /* DYEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA820474B5900891288 /* DYEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C3320474B5900891288 /* DYEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BA820474B5900891288 /* DYEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C3420474B5900891288 /* NSDictionary+DyeTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463BAA20474B5900891288 /* NSDictionary+DyeTypeSafety.m */; };
+		63463C3520474B5900891288 /* NSDictionary+DyeTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463BAA20474B5900891288 /* NSDictionary+DyeTypeSafety.m */; };
+		63463C3620474B5900891288 /* NSDictionary+DyeTypeSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = 63463BAA20474B5900891288 /* NSDictionary+DyeTypeSafety.m */; };
+		63463C3720474B5900891288 /* NSDictionary+DyeTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BAB20474B5900891288 /* NSDictionary+DyeTypeSafety.h */; };
+		63463C3820474B5900891288 /* NSDictionary+DyeTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BAB20474B5900891288 /* NSDictionary+DyeTypeSafety.h */; };
+		63463C3920474B5900891288 /* NSDictionary+DyeTypeSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BAB20474B5900891288 /* NSDictionary+DyeTypeSafety.h */; };
+		63463C3A20474B5900891288 /* DYEStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BAC20474B5900891288 /* DYEStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C3B20474B5900891288 /* DYEStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BAC20474B5900891288 /* DYEStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63463C3C20474B5900891288 /* DYEStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 63463BAC20474B5900891288 /* DYEStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63794399273004CF00D20B82 /* Dye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63794398273004CF00D20B82 /* Dye.swift */; };
+		6379439A273004CF00D20B82 /* Dye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63794398273004CF00D20B82 /* Dye.swift */; };
+		6379439B273004CF00D20B82 /* Dye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63794398273004CF00D20B82 /* Dye.swift */; };
+		B40548662180845C0074AC81 /* DYEStyle+StringAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = B40548642180845B0074AC81 /* DYEStyle+StringAttributes.m */; };
+		B40548672180845C0074AC81 /* DYEStyle+StringAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = B40548642180845B0074AC81 /* DYEStyle+StringAttributes.m */; };
+		B40548682180845C0074AC81 /* DYEStyle+StringAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = B40548642180845B0074AC81 /* DYEStyle+StringAttributes.m */; };
+		B40548692180845C0074AC81 /* DYEStyle+StringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = B40548652180845B0074AC81 /* DYEStyle+StringAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B405486A2180845C0074AC81 /* DYEStyle+StringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = B40548652180845B0074AC81 /* DYEStyle+StringAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B405486B2180845C0074AC81 /* DYEStyle+StringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = B40548652180845B0074AC81 /* DYEStyle+StringAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63239F352513626900081644 /* UIImageView+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DYEStyleable.h"; sourceTree = "<group>"; };
+		63239F362513626900081644 /* UIImageView+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B7420474B5900891288 /* DYEColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYEColors.m; sourceTree = "<group>"; };
+		63463B7620474B5900891288 /* DYEStyle+FileImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYEStyle+FileImport.m"; sourceTree = "<group>"; };
+		63463B7720474B5900891288 /* DYEColors+FileImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEColors+FileImport.h"; sourceTree = "<group>"; };
+		63463B7920474B5900891288 /* DYEStyle+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEStyle+JSON.h"; sourceTree = "<group>"; };
+		63463B7A20474B5900891288 /* DYEColors+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYEColors+JSON.m"; sourceTree = "<group>"; };
+		63463B7B20474B5900891288 /* DYEStyle+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYEStyle+JSON.m"; sourceTree = "<group>"; };
+		63463B7C20474B5900891288 /* DYEColors+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEColors+JSON.h"; sourceTree = "<group>"; };
+		63463B7D20474B5900891288 /* DYEStyle+FileImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEStyle+FileImport.h"; sourceTree = "<group>"; };
+		63463B7E20474B5900891288 /* DYEColors+FileImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYEColors+FileImport.m"; sourceTree = "<group>"; };
+		63463B7F20474B5900891288 /* DYEStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYEStyle.m; sourceTree = "<group>"; };
+		63463B8120474B5900891288 /* DYELinearGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYELinearGradientLayer.h; sourceTree = "<group>"; };
+		63463B8220474B5900891288 /* DYELinearGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYELinearGradientLayer.m; sourceTree = "<group>"; };
+		63463B8320474B5900891288 /* DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYEStyleable.h; sourceTree = "<group>"; };
+		63463B8620474B5900891288 /* UISwitch+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B8720474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B8820474B5900891288 /* UIButton+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B8920474B5900891288 /* UIView+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B8A20474B5900891288 /* UISlider+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B8B20474B5900891288 /* UIPageControl+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B8C20474B5900891288 /* UIProgressView+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B8D20474B5900891288 /* UIControl+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B8E20474B5900891288 /* UITextField+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B8F20474B5900891288 /* UILabel+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B9020474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9120474B5900891288 /* UISwitch+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9220474B5900891288 /* UIButton+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9320474B5900891288 /* UIProgressView+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B9420474B5900891288 /* UISlider+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9520474B5900891288 /* UIPageControl+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B9620474B5900891288 /* UIView+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9720474B5900891288 /* UILabel+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9820474B5900891288 /* UITextField+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9920474B5900891288 /* UIControl+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B9B20474B5900891288 /* NSMutableAttributedString+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463B9C20474B5900891288 /* NSMutableAttributedString+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B9E20474B5900891288 /* NSView+DYEStyleable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+DYEStyleable.m"; sourceTree = "<group>"; };
+		63463B9F20474B5900891288 /* NSView+DYEStyleable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+DYEStyleable.h"; sourceTree = "<group>"; };
+		63463BA020474B5900891288 /* Dye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dye.h; sourceTree = "<group>"; };
+		63463BA120474B5900891288 /* DYEColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYEColors.h; sourceTree = "<group>"; };
+		63463BA320474B5900891288 /* NSView+DYEPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+DYEPrivateHeader.h"; sourceTree = "<group>"; };
+		63463BA420474B5900891288 /* DYEStyle+DYEPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEStyle+DYEPrivateHeader.h"; sourceTree = "<group>"; };
+		63463BA520474B5900891288 /* UIControl+DYEPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DYEPrivateHeader.h"; sourceTree = "<group>"; };
+		63463BA620474B5900891288 /* DYEColors+DYEPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEColors+DYEPrivateHeader.h"; sourceTree = "<group>"; };
+		63463BA720474B5900891288 /* UIView+DYEPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYEPrivateHeader.h"; sourceTree = "<group>"; };
+		63463BA820474B5900891288 /* DYEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYEConstants.h; sourceTree = "<group>"; };
+		63463BAA20474B5900891288 /* NSDictionary+DyeTypeSafety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DyeTypeSafety.m"; sourceTree = "<group>"; };
+		63463BAB20474B5900891288 /* NSDictionary+DyeTypeSafety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DyeTypeSafety.h"; sourceTree = "<group>"; };
+		63463BAC20474B5900891288 /* DYEStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYEStyle.h; sourceTree = "<group>"; };
+		63794398273004CF00D20B82 /* Dye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dye.swift; sourceTree = "<group>"; };
+		63A7F0AC1F2F5F4000A5F9D2 /* Dye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A7F0AF1F2F5F4000A5F9D2 /* Dye-tvOS-Framework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dye-tvOS-Framework.plist"; sourceTree = "<group>"; };
+		63AC3AFC20406AE3007FD259 /* Dye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AC3AFF20406AE3007FD259 /* Dye-macOS-Framework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dye-macOS-Framework.plist"; sourceTree = "<group>"; };
+		63B455131F0ACD2600D23578 /* Dye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B456441F0AD57600D23578 /* Dye-iOS-Framework.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dye-iOS-Framework.plist"; sourceTree = "<group>"; };
+		B40548642180845B0074AC81 /* DYEStyle+StringAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYEStyle+StringAttributes.m"; sourceTree = "<group>"; };
+		B40548652180845B0074AC81 /* DYEStyle+StringAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYEStyle+StringAttributes.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A7F0A81F2F5F4000A5F9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AC3AF820406AE3007FD259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4550F1F0ACD2600D23578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63463B7220474B5800891288 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				63463B7320474B5900891288 /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		63463B7320474B5900891288 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63463BA020474B5900891288 /* Dye.h */,
+				63794398273004CF00D20B82 /* Dye.swift */,
+				63463BA820474B5900891288 /* DYEConstants.h */,
+				63463BA120474B5900891288 /* DYEColors.h */,
+				63463B7420474B5900891288 /* DYEColors.m */,
+				63463BAC20474B5900891288 /* DYEStyle.h */,
+				63463B7F20474B5900891288 /* DYEStyle.m */,
+				63463B8320474B5900891288 /* DYEStyleable.h */,
+				63463B7520474B5900891288 /* Importers */,
+				63463B8020474B5900891288 /* Objects */,
+				63463B8420474B5900891288 /* Styleables */,
+				63463BA220474B5900891288 /* Private */,
+				63463BA920474B5900891288 /* Categories */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63463B7520474B5900891288 /* Importers */ = {
+			isa = PBXGroup;
+			children = (
+				63463B7720474B5900891288 /* DYEColors+FileImport.h */,
+				63463B7E20474B5900891288 /* DYEColors+FileImport.m */,
+				63463B7D20474B5900891288 /* DYEStyle+FileImport.h */,
+				63463B7620474B5900891288 /* DYEStyle+FileImport.m */,
+				63463B7820474B5900891288 /* JSON */,
+			);
+			path = Importers;
+			sourceTree = "<group>";
+		};
+		63463B7820474B5900891288 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				63463B7C20474B5900891288 /* DYEColors+JSON.h */,
+				63463B7A20474B5900891288 /* DYEColors+JSON.m */,
+				63463B7920474B5900891288 /* DYEStyle+JSON.h */,
+				63463B7B20474B5900891288 /* DYEStyle+JSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		63463B8020474B5900891288 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				63463B8120474B5900891288 /* DYELinearGradientLayer.h */,
+				63463B8220474B5900891288 /* DYELinearGradientLayer.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		63463B8420474B5900891288 /* Styleables */ = {
+			isa = PBXGroup;
+			children = (
+				63463B9D20474B5900891288 /* AppKit */,
+				63463B9A20474B5900891288 /* Foundation */,
+				63463B8520474B5900891288 /* UIKit */,
+			);
+			path = Styleables;
+			sourceTree = "<group>";
+		};
+		63463B8520474B5900891288 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				63239F352513626900081644 /* UIImageView+DYEStyleable.h */,
+				63239F362513626900081644 /* UIImageView+DYEStyleable.m */,
+				63463B9620474B5900891288 /* UIView+DYEStyleable.h */,
+				63463B8920474B5900891288 /* UIView+DYEStyleable.m */,
+				63463B8D20474B5900891288 /* UIControl+DYEStyleable.h */,
+				63463B9920474B5900891288 /* UIControl+DYEStyleable.m */,
+				63463B9720474B5900891288 /* UILabel+DYEStyleable.h */,
+				63463B8F20474B5900891288 /* UILabel+DYEStyleable.m */,
+				63463B9220474B5900891288 /* UIButton+DYEStyleable.h */,
+				63463B8820474B5900891288 /* UIButton+DYEStyleable.m */,
+				63463B9820474B5900891288 /* UITextField+DYEStyleable.h */,
+				63463B8E20474B5900891288 /* UITextField+DYEStyleable.m */,
+				63463B9020474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h */,
+				63463B8720474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m */,
+				63463B8B20474B5900891288 /* UIPageControl+DYEStyleable.h */,
+				63463B9520474B5900891288 /* UIPageControl+DYEStyleable.m */,
+				63463B8C20474B5900891288 /* UIProgressView+DYEStyleable.h */,
+				63463B9320474B5900891288 /* UIProgressView+DYEStyleable.m */,
+				63463B9120474B5900891288 /* UISwitch+DYEStyleable.h */,
+				63463B8620474B5900891288 /* UISwitch+DYEStyleable.m */,
+				63463B9420474B5900891288 /* UISlider+DYEStyleable.h */,
+				63463B8A20474B5900891288 /* UISlider+DYEStyleable.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		63463B9A20474B5900891288 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				63463B9B20474B5900891288 /* NSMutableAttributedString+DYEStyleable.h */,
+				63463B9C20474B5900891288 /* NSMutableAttributedString+DYEStyleable.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		63463B9D20474B5900891288 /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				63463B9F20474B5900891288 /* NSView+DYEStyleable.h */,
+				63463B9E20474B5900891288 /* NSView+DYEStyleable.m */,
+			);
+			path = AppKit;
+			sourceTree = "<group>";
+		};
+		63463BA220474B5900891288 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				63463BA620474B5900891288 /* DYEColors+DYEPrivateHeader.h */,
+				63463BA420474B5900891288 /* DYEStyle+DYEPrivateHeader.h */,
+				63463BA320474B5900891288 /* NSView+DYEPrivateHeader.h */,
+				63463BA520474B5900891288 /* UIControl+DYEPrivateHeader.h */,
+				63463BA720474B5900891288 /* UIView+DYEPrivateHeader.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		63463BA920474B5900891288 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				63463BAB20474B5900891288 /* NSDictionary+DyeTypeSafety.h */,
+				63463BAA20474B5900891288 /* NSDictionary+DyeTypeSafety.m */,
+				B40548652180845B0074AC81 /* DYEStyle+StringAttributes.h */,
+				B40548642180845B0074AC81 /* DYEStyle+StringAttributes.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		63A7F0AD1F2F5F4000A5F9D2 /* Dye-tvOS-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				63A7F0AF1F2F5F4000A5F9D2 /* Dye-tvOS-Framework.plist */,
+			);
+			path = "Dye-tvOS-Framework";
+			sourceTree = "<group>";
+		};
+		63AC3AFD20406AE3007FD259 /* Dye-macOS-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				63AC3AFF20406AE3007FD259 /* Dye-macOS-Framework.plist */,
+			);
+			path = "Dye-macOS-Framework";
+			sourceTree = "<group>";
+		};
+		63B455091F0ACD2600D23578 = {
+			isa = PBXGroup;
+			children = (
+				63463B7220474B5800891288 /* Source */,
+				63B456431F0AD57600D23578 /* Dye-iOS-Framework */,
+				63A7F0AD1F2F5F4000A5F9D2 /* Dye-tvOS-Framework */,
+				63AC3AFD20406AE3007FD259 /* Dye-macOS-Framework */,
+				63B455141F0ACD2600D23578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B455141F0ACD2600D23578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B455131F0ACD2600D23578 /* Dye.framework */,
+				63A7F0AC1F2F5F4000A5F9D2 /* Dye.framework */,
+				63AC3AFC20406AE3007FD259 /* Dye.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B456431F0AD57600D23578 /* Dye-iOS-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				63B456441F0AD57600D23578 /* Dye-iOS-Framework.plist */,
+			);
+			path = "Dye-iOS-Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63A7F0A91F2F5F4000A5F9D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B405486A2180845C0074AC81 /* DYEStyle+StringAttributes.h in Headers */,
+				63463C0820474B5900891288 /* UILabel+DYEStyleable.h in Headers */,
+				63463BD220474B5900891288 /* DYEStyleable.h in Headers */,
+				63463C2620474B5900891288 /* DYEStyle+DYEPrivateHeader.h in Headers */,
+				63463C1D20474B5900891288 /* Dye.h in Headers */,
+				63239F382513626900081644 /* UIImageView+DYEStyleable.h in Headers */,
+				63463C2020474B5900891288 /* DYEColors.h in Headers */,
+				63463BE420474B5900891288 /* UIPageControl+DYEStyleable.h in Headers */,
+				63463BE720474B5900891288 /* UIProgressView+DYEStyleable.h in Headers */,
+				63463C3B20474B5900891288 /* DYEStyle.h in Headers */,
+				63463BC320474B5900891288 /* DYEStyle+FileImport.h in Headers */,
+				63463C2C20474B5900891288 /* DYEColors+DYEPrivateHeader.h in Headers */,
+				63463BF920474B5900891288 /* UIButton+DYEStyleable.h in Headers */,
+				63463BB420474B5900891288 /* DYEColors+FileImport.h in Headers */,
+				63463C0B20474B5900891288 /* UITextField+DYEStyleable.h in Headers */,
+				63463C0520474B5900891288 /* UIView+DYEStyleable.h in Headers */,
+				63463BC020474B5900891288 /* DYEColors+JSON.h in Headers */,
+				63463BB720474B5900891288 /* DYEStyle+JSON.h in Headers */,
+				63463C1120474B5900891288 /* NSMutableAttributedString+DYEStyleable.h in Headers */,
+				63463C2F20474B5900891288 /* UIView+DYEPrivateHeader.h in Headers */,
+				63463BCC20474B5900891288 /* DYELinearGradientLayer.h in Headers */,
+				63463C3820474B5900891288 /* NSDictionary+DyeTypeSafety.h in Headers */,
+				63463BEA20474B5900891288 /* UIControl+DYEStyleable.h in Headers */,
+				63463C2920474B5900891288 /* UIControl+DYEPrivateHeader.h in Headers */,
+				63463BF320474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h in Headers */,
+				63463C3220474B5900891288 /* DYEConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AC3AF920406AE3007FD259 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63463C3C20474B5900891288 /* DYEStyle.h in Headers */,
+				63463C2720474B5900891288 /* DYEStyle+DYEPrivateHeader.h in Headers */,
+				63463C1B20474B5900891288 /* NSView+DYEStyleable.h in Headers */,
+				63463BCD20474B5900891288 /* DYELinearGradientLayer.h in Headers */,
+				63463C1220474B5900891288 /* NSMutableAttributedString+DYEStyleable.h in Headers */,
+				63463BB820474B5900891288 /* DYEStyle+JSON.h in Headers */,
+				63463C3320474B5900891288 /* DYEConstants.h in Headers */,
+				63463BD320474B5900891288 /* DYEStyleable.h in Headers */,
+				63463BC420474B5900891288 /* DYEStyle+FileImport.h in Headers */,
+				63463C2D20474B5900891288 /* DYEColors+DYEPrivateHeader.h in Headers */,
+				63463BC120474B5900891288 /* DYEColors+JSON.h in Headers */,
+				63463BB520474B5900891288 /* DYEColors+FileImport.h in Headers */,
+				63463C2120474B5900891288 /* DYEColors.h in Headers */,
+				63463C3920474B5900891288 /* NSDictionary+DyeTypeSafety.h in Headers */,
+				63463C1E20474B5900891288 /* Dye.h in Headers */,
+				B405486B2180845C0074AC81 /* DYEStyle+StringAttributes.h in Headers */,
+				63463C2420474B5900891288 /* NSView+DYEPrivateHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B455101F0ACD2600D23578 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63463C0720474B5900891288 /* UILabel+DYEStyleable.h in Headers */,
+				63463BD120474B5900891288 /* DYEStyleable.h in Headers */,
+				63463C1020474B5900891288 /* NSMutableAttributedString+DYEStyleable.h in Headers */,
+				63463C2520474B5900891288 /* DYEStyle+DYEPrivateHeader.h in Headers */,
+				63463C1C20474B5900891288 /* Dye.h in Headers */,
+				63463C1F20474B5900891288 /* DYEColors.h in Headers */,
+				63463BE320474B5900891288 /* UIPageControl+DYEStyleable.h in Headers */,
+				63463BE620474B5900891288 /* UIProgressView+DYEStyleable.h in Headers */,
+				63463C3A20474B5900891288 /* DYEStyle.h in Headers */,
+				63463BFE20474B5900891288 /* UISlider+DYEStyleable.h in Headers */,
+				63463BC220474B5900891288 /* DYEStyle+FileImport.h in Headers */,
+				63463C2B20474B5900891288 /* DYEColors+DYEPrivateHeader.h in Headers */,
+				63463BF820474B5900891288 /* UIButton+DYEStyleable.h in Headers */,
+				B40548692180845C0074AC81 /* DYEStyle+StringAttributes.h in Headers */,
+				63463BB320474B5900891288 /* DYEColors+FileImport.h in Headers */,
+				63463C0A20474B5900891288 /* UITextField+DYEStyleable.h in Headers */,
+				63239F372513626900081644 /* UIImageView+DYEStyleable.h in Headers */,
+				63463C0420474B5900891288 /* UIView+DYEStyleable.h in Headers */,
+				63463BBF20474B5900891288 /* DYEColors+JSON.h in Headers */,
+				63463BB620474B5900891288 /* DYEStyle+JSON.h in Headers */,
+				63463C2E20474B5900891288 /* UIView+DYEPrivateHeader.h in Headers */,
+				63463BE920474B5900891288 /* UIControl+DYEStyleable.h in Headers */,
+				63463C3720474B5900891288 /* NSDictionary+DyeTypeSafety.h in Headers */,
+				63463BCB20474B5900891288 /* DYELinearGradientLayer.h in Headers */,
+				63463C2820474B5900891288 /* UIControl+DYEPrivateHeader.h in Headers */,
+				63463BF220474B5900891288 /* UIActivityIndicatorView+DYEStyleable.h in Headers */,
+				63463C3120474B5900891288 /* DYEConstants.h in Headers */,
+				63463BF520474B5900891288 /* UISwitch+DYEStyleable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63A7F0AB1F2F5F4000A5F9D2 /* Dye-tvOS-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A7F0B11F2F5F4000A5F9D2 /* Build configuration list for PBXNativeTarget "Dye-tvOS-Framework" */;
+			buildPhases = (
+				63A7F0A71F2F5F4000A5F9D2 /* Sources */,
+				63A7F0A81F2F5F4000A5F9D2 /* Frameworks */,
+				63A7F0A91F2F5F4000A5F9D2 /* Headers */,
+				63A7F0AA1F2F5F4000A5F9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dye-tvOS-Framework";
+			productName = "Dye-tvOS-Framework";
+			productReference = 63A7F0AC1F2F5F4000A5F9D2 /* Dye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63AC3AFB20406AE3007FD259 /* Dye-macOS-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AC3B0120406AE3007FD259 /* Build configuration list for PBXNativeTarget "Dye-macOS-Framework" */;
+			buildPhases = (
+				63AC3AF720406AE3007FD259 /* Sources */,
+				63AC3AF820406AE3007FD259 /* Frameworks */,
+				63AC3AF920406AE3007FD259 /* Headers */,
+				63AC3AFA20406AE3007FD259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dye-macOS-Framework";
+			productName = "Dye-macOS";
+			productReference = 63AC3AFC20406AE3007FD259 /* Dye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63B455121F0ACD2600D23578 /* Dye-iOS-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4551B1F0ACD2600D23578 /* Build configuration list for PBXNativeTarget "Dye-iOS-Framework" */;
+			buildPhases = (
+				63B4550E1F0ACD2600D23578 /* Sources */,
+				63B4550F1F0ACD2600D23578 /* Frameworks */,
+				63B455101F0ACD2600D23578 /* Headers */,
+				63B455111F0ACD2600D23578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dye-iOS-Framework";
+			productName = Dye;
+			productReference = 63B455131F0ACD2600D23578 /* Dye.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B4550A1F0ACD2600D23578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "November Five";
+				TargetAttributes = {
+					63A7F0AB1F2F5F4000A5F9D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Manual;
+					};
+					63AC3AFB20406AE3007FD259 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Manual;
+					};
+					63B455121F0ACD2600D23578 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 63B4550D1F0ACD2600D23578 /* Build configuration list for PBXProject "Dye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B455091F0ACD2600D23578;
+			productRefGroup = 63B455141F0ACD2600D23578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B455121F0ACD2600D23578 /* Dye-iOS-Framework */,
+				63A7F0AB1F2F5F4000A5F9D2 /* Dye-tvOS-Framework */,
+				63AC3AFB20406AE3007FD259 /* Dye-macOS-Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A7F0AA1F2F5F4000A5F9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AC3AFA20406AE3007FD259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B455111F0ACD2600D23578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A7F0A71F2F5F4000A5F9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63463BED20474B5900891288 /* UITextField+DYEStyleable.m in Sources */,
+				63463BAE20474B5900891288 /* DYEColors.m in Sources */,
+				63463BB120474B5900891288 /* DYEStyle+FileImport.m in Sources */,
+				63463BCF20474B5900891288 /* DYELinearGradientLayer.m in Sources */,
+				63463BD820474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m in Sources */,
+				63463C0220474B5900891288 /* UIPageControl+DYEStyleable.m in Sources */,
+				B40548672180845C0074AC81 /* DYEStyle+StringAttributes.m in Sources */,
+				63239F3A2513626900081644 /* UIImageView+DYEStyleable.m in Sources */,
+				63463BDE20474B5900891288 /* UIView+DYEStyleable.m in Sources */,
+				63463C0E20474B5900891288 /* UIControl+DYEStyleable.m in Sources */,
+				63463BC920474B5900891288 /* DYEStyle.m in Sources */,
+				63463BFC20474B5900891288 /* UIProgressView+DYEStyleable.m in Sources */,
+				63463C3520474B5900891288 /* NSDictionary+DyeTypeSafety.m in Sources */,
+				6379439A273004CF00D20B82 /* Dye.swift in Sources */,
+				63463BF020474B5900891288 /* UILabel+DYEStyleable.m in Sources */,
+				63463BDB20474B5900891288 /* UIButton+DYEStyleable.m in Sources */,
+				63463BBD20474B5900891288 /* DYEStyle+JSON.m in Sources */,
+				63463BC620474B5900891288 /* DYEColors+FileImport.m in Sources */,
+				63463BBA20474B5900891288 /* DYEColors+JSON.m in Sources */,
+				63463C1420474B5900891288 /* NSMutableAttributedString+DYEStyleable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AC3AF720406AE3007FD259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63463BAF20474B5900891288 /* DYEColors.m in Sources */,
+				6379439B273004CF00D20B82 /* Dye.swift in Sources */,
+				63463BB220474B5900891288 /* DYEStyle+FileImport.m in Sources */,
+				B40548682180845C0074AC81 /* DYEStyle+StringAttributes.m in Sources */,
+				63463BD020474B5900891288 /* DYELinearGradientLayer.m in Sources */,
+				63463C1820474B5900891288 /* NSView+DYEStyleable.m in Sources */,
+				63463BCA20474B5900891288 /* DYEStyle.m in Sources */,
+				63463C3620474B5900891288 /* NSDictionary+DyeTypeSafety.m in Sources */,
+				63463BBE20474B5900891288 /* DYEStyle+JSON.m in Sources */,
+				63463BC720474B5900891288 /* DYEColors+FileImport.m in Sources */,
+				63463BBB20474B5900891288 /* DYEColors+JSON.m in Sources */,
+				63463C1520474B5900891288 /* NSMutableAttributedString+DYEStyleable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B4550E1F0ACD2600D23578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63463BEC20474B5900891288 /* UITextField+DYEStyleable.m in Sources */,
+				63463BAD20474B5900891288 /* DYEColors.m in Sources */,
+				63463BB020474B5900891288 /* DYEStyle+FileImport.m in Sources */,
+				63463BCE20474B5900891288 /* DYELinearGradientLayer.m in Sources */,
+				63463BD720474B5900891288 /* UIActivityIndicatorView+DYEStyleable.m in Sources */,
+				63463C0120474B5900891288 /* UIPageControl+DYEStyleable.m in Sources */,
+				63463BDD20474B5900891288 /* UIView+DYEStyleable.m in Sources */,
+				63463BE020474B5900891288 /* UISlider+DYEStyleable.m in Sources */,
+				63239F392513626900081644 /* UIImageView+DYEStyleable.m in Sources */,
+				63463C0D20474B5900891288 /* UIControl+DYEStyleable.m in Sources */,
+				63463BC820474B5900891288 /* DYEStyle.m in Sources */,
+				B40548662180845C0074AC81 /* DYEStyle+StringAttributes.m in Sources */,
+				63463BFB20474B5900891288 /* UIProgressView+DYEStyleable.m in Sources */,
+				63463BD420474B5900891288 /* UISwitch+DYEStyleable.m in Sources */,
+				63463C3420474B5900891288 /* NSDictionary+DyeTypeSafety.m in Sources */,
+				63463BEF20474B5900891288 /* UILabel+DYEStyleable.m in Sources */,
+				63463BDA20474B5900891288 /* UIButton+DYEStyleable.m in Sources */,
+				63463BBC20474B5900891288 /* DYEStyle+JSON.m in Sources */,
+				63463BC520474B5900891288 /* DYEColors+FileImport.m in Sources */,
+				63463BB920474B5900891288 /* DYEColors+JSON.m in Sources */,
+				63463C1320474B5900891288 /* NSMutableAttributedString+DYEStyleable.m in Sources */,
+				63794399273004CF00D20B82 /* Dye.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63A7F0B21F2F5F4000A5F9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Dye-tvOS-Framework/Dye-tvOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dye.tvos-framework";
+				PRODUCT_NAME = Dye;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		63A7F0B31F2F5F4000A5F9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Dye-tvOS-Framework/Dye-tvOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dye.tvos-framework";
+				PRODUCT_NAME = Dye;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		63AC3B0220406AE3007FD259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Dye-macOS-Framework/Dye-macOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dye.macos-framework";
+				PRODUCT_NAME = Dye;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63AC3B0320406AE3007FD259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Dye-macOS-Framework/Dye-macOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dye.macos-framework";
+				PRODUCT_NAME = Dye;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63B455191F0ACD2600D23578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63B4551A1F0ACD2600D23578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63B4551C1F0ACD2600D23578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Dye-iOS-Framework/Dye-iOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dye.ios-framework";
+				PRODUCT_NAME = Dye;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63B4551D1F0ACD2600D23578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Dye-iOS-Framework/Dye-iOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dye.ios-framework";
+				PRODUCT_NAME = Dye;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A7F0B11F2F5F4000A5F9D2 /* Build configuration list for PBXNativeTarget "Dye-tvOS-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A7F0B21F2F5F4000A5F9D2 /* Debug */,
+				63A7F0B31F2F5F4000A5F9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AC3B0120406AE3007FD259 /* Build configuration list for PBXNativeTarget "Dye-macOS-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AC3B0220406AE3007FD259 /* Debug */,
+				63AC3B0320406AE3007FD259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4550D1F0ACD2600D23578 /* Build configuration list for PBXProject "Dye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B455191F0ACD2600D23578 /* Debug */,
+				63B4551A1F0ACD2600D23578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4551B1F0ACD2600D23578 /* Build configuration list for PBXNativeTarget "Dye-iOS-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B4551C1F0ACD2600D23578 /* Debug */,
+				63B4551D1F0ACD2600D23578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B4550A1F0ACD2600D23578 /* Project object */;
+}

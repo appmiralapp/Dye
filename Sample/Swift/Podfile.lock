@@ -1,0 +1,16 @@
+PODS:
+  - Dye (2.8.0)
+
+DEPENDENCIES:
+  - Dye (from `../../`)
+
+EXTERNAL SOURCES:
+  Dye:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Dye: b1d4460d31f47df1f50f8d3a31ea817c4092343e
+
+PODFILE CHECKSUM: a1bdf02144633dad73567ec9074ed6705bae50b6
+
+COCOAPODS: 1.10.1

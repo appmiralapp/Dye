@@ -1,0 +1,74 @@
+[
+    {
+        "name": "jonquil",
+        "value": {
+            "rgb": {
+                "r": 230,
+                "g": 194,
+                "b": 41
+            },
+            "alpha": 1
+        }
+    },
+    {
+        "name": "pumpkin",
+        "value": {
+            "hex": "F17105",
+            "alpha": 1
+        }
+    },
+    {
+        "name": "spanish_carmine",
+        "value": {
+            "hex": "d11149",
+            "alpha": 1
+        }
+    },
+    {
+        "name": "cornflower_blue",
+        "value": {
+            "cmyk": {
+                "c": 0.9,
+                "m": 0.39,
+                "y": 0,
+                "k": 0
+            },
+            "alpha": 1
+        }
+    },
+    {
+        "name": "cornflower_blue_50%",
+        "value": {
+            "inherits": "cornflower_blue",
+            "alpha": 0.5
+        }
+    },
+    {
+        "name": "sunflower_yellow",
+        "value": {
+            "hsv": {
+                "h": 38,
+                "s": 0.74,
+                "v": 0.78
+            }
+        }
+    },
+    {
+        "name": "sunflower_yellow_10%",
+        "value": {
+            "inherits": "sunflower_yellow",
+            "alpha": 0.1
+        }
+    },
+    {
+        "name": "shadow",
+        "value": {
+            "rgb": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+            },
+            "alpha": 0.4
+        }
+    }
+]
